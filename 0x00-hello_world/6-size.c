@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * Size is not grandeur, and territory does not make a nation
+ * main - A program that prints the size of various computer types
  * Return: 0
  */
-int main()
+int main(void)
 {
 	char a;
 	int b;
