@@ -1,1 +1,1 @@
-README for intro to C programming
+This README file is for functions nested loops
