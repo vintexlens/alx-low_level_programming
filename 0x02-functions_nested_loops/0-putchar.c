@@ -1,18 +1,14 @@
-#include <stdio.h>
-#include <unistd.h>
+#include <main.h>
 
 /**
- * _putchar - writes a program that prints _putchar
- * @c: The character to print
- *
+ * main - writes a program that prints _putchar
+ * 
  * Return: On success 0.
  */
-int _putchar(char c)
-{
-	return (write(&c));
-}
 
 int main()
 {
-	_putchar ("_putchar");
+	char ch = '_putchar';
+	putchar (ch);
+	return 0;
 }
