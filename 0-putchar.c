@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-\**
+/**
  * main - program that prints _putchar
  * 
  *return: 0 as sucess
- *\
+ */
 
  int main()
 {
