@@ -10,13 +10,11 @@
 
 int _isalpha(int c)
 {
-	int i, j;
-
-	while (i > 64 && i < 91)
+	while (c > 64 && c < 91)
 	{
 		return (1);
 	}
-	while (j > 96 && j < 123)
+	while (c > 96 && c < 123)
 	{
 		return (1);
 	}
