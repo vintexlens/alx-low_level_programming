@@ -3,14 +3,14 @@
  * _islower - function that checks for lowercase character
  * @c: varriable that is passed
  *
- * return: 1 if c is lowercase. Else 0
+ * Return: 1 if c is lowercase. Else 0
  */
 
 int _islower(int c)
 {
-	c = 123;
+	c = 97;
 
-	while (c < 123 && c > 96)
+	while (c <= 123 && c > 96)
 	{
 		return (1);
 	}
