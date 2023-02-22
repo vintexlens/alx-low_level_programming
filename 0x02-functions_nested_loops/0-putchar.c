@@ -7,27 +7,15 @@
  */
 int main(void)
 {
-	char name = '_';
-
-	_putchar(name);
-	name = 'p';
-	_putchar(name);
-	name = 'u';
-	_putchar(name);
-	name = 't';
-	_putchar(name);
-	name = 'c';
-	_putchar(name);
-	name = 'h';
-	_putchar(name);
-	name = 'a';
-	_putchar(name);
-	name = 'r';
-	_putchar(name);
-	name = '\n';
-	_putchar(name);
-	_putchar(9);
-
-	return (0);
+putchar('');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
 
