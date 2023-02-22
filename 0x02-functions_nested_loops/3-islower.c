@@ -2,17 +2,17 @@
 /**
  * _islower - function that checks for lowercase character
  * @c: varriable that is passed
- * return: 1 if c is lowercase
+ *
+ * return: 1 if c is lowercase. Else 0
  */
 
 int _islower(int c)
 {
-	while (c == islower)
-	{
-		_putchar(1);
-	}
-	else
-		_putchar(0);
+	c = 123;
 
-	return (_putchar);
+	while (c < 123 && c > 96)
+	{
+		return (1);
+	}
+	return (0);
 }
