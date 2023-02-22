@@ -8,9 +8,7 @@
 
 int _islower(int c)
 {
-	c = 97;
-
-	while (c <= 123 && c > 96)
+	while (c > 96 && c < 123)
 	{
 		return (1);
 	}
