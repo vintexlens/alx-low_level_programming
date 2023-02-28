@@ -18,12 +18,27 @@ void puts_half(char *str)
 		i++;
 	}
 	max = i;
-	half = max / 2;
 
-	while (half <= max)
+	if (max % 3 == 0)
 	{
-		_putchar(str[half]);
-		half++;
+		half = (max - 1) / 2;
+
+		while (half <= max)
+		{
+			_putchar(str[half]);
+			half++;
+		}
 	}
+	else
+	{
+		half = max / 2;
+
+		while (half <= max)
+		{
+			_putchar(str[half]);
+		}
+
 	_putchar('\n');
+
+	}
 }
