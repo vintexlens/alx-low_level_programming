@@ -19,29 +19,19 @@ void puts_half(char *str)
 		j++;
 	}
 
-	half = (i / 2);
 
-	if ((half % 2) == 1)
-	{
-		half = (i + 1) / 2;
-
-		while ((i = half) && (str[i] != '\0'))
-		{
-			_putchar(str[i]);
-			i++;
-		}
-	}
-	else
+	if ((half % 2) == 0)
 	{
 		half = (i / 2);
 
-		while (half != '\0')
-		{
-			_putchar(str[i]);
-			half++;
-		}
-
-	_putchar('\n');
-
 	}
+	else
+	{
+		half = ((i + 1) / 2);
+	}
+	for (i = half; i < j; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
