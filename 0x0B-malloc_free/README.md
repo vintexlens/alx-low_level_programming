@@ -1,0 +1,1 @@
+static memory using malloc
